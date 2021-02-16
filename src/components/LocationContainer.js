@@ -39,9 +39,7 @@ const LocationContainer = () =>{
                 dimension={ubication.dimension} 
                 name={ubication.name} type={ubication.type} 
                 residents={ubication.residentNumber}/>
-            <div className="col-lg-8">
-                <Character residents={residents} flag={location}/>
-            </div>
+            <Character residents={residents} flag={location}/>
         </div>
         </>
     )

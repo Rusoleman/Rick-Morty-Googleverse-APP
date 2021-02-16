@@ -2,9 +2,9 @@ import React from 'react';
 import './Resident-style.css';
 import './grid.css';
 
-const Character = ({nameResident, image, status, origin, aparitions,handleClick, handleSecondClick}) =>{
+const Character = ({nameResident, image, status, origin, aparitions}) =>{
     return(
-        <div className="col-lg-2">
+        <div className="col-lg-4 col-md-4">
             <div className="container-character">
                 <div className="card-character">
                     <h3>{nameResident}</h3>
