@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import LocationContainer from './components/LocationContainer'
+import './components/Location-style.css';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="row">
+      <div className="col-lg-12">
+        <div className="title">
+          <h1>GOOGLEVERSE-MAPS</h1>
+        </div>
+        <header className="App-header">
+          <LocationContainer/>
+        </header>
+      </div>
     </div>
   );
 }

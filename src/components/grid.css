@@ -1,0 +1,32 @@
+@media (min-width:992px) {
+    .row {
+        display: flex;
+    }
+    .col-lg-2 {
+        width: 16.67%;
+    }
+    .col-lg-4 {
+        width: 33.34%;
+    }
+    .col-lg-6 {
+        width: 49.8%;
+    }
+    .col-lg-8 {
+        width: 66.64%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+@media (min-width:768px) {
+    .row {
+        display: flex;
+    }
+    .col-md-6 {
+        width: 49.8%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    
+}
